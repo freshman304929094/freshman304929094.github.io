@@ -37,9 +37,6 @@ jobs:
       - name: Build VitePress site
         run: npx vitepress build docs
 
-      - name: List build output
-        run: ls -R
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
