@@ -73,7 +73,7 @@ export default defineConfig({
     },
   },
 
+  // 核心：移除错误的 outDir 和 cacheDir，回归标准路径
+  // 这样构建产物会自动在 docs/.vitepress/dist 生成
   srcDir: '.',
-  outDir: '../.vitepress/dist',
-  cacheDir: '../.vitepress/cache'
 })
