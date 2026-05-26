@@ -35,5 +35,15 @@
     "home_page_md": "D:\\02_Code_Repos\\freshman304929094.github.io\\docs\\index.md",
     "original_html_backup": "D:\\02_Code_Repos\\freshman304929094.github.io\\index.html.bak"
   },
+  "tools_status": {
+    "obsidian_config": {
+      "installed": true,
+      "version": "1.12.7",
+      "executable_path": "C:\\Users\\Bei\\AppData\\Local\\Programs\\Obsidian\\Obsidian.exe",
+      "vault_candidate": "D:\\02_Code_Repos\\freshman304929094.github.io\\docs",
+      "install_method": "winget",
+      "installed_at": "2026-05-26T18:11:00+08:00"
+    }
+  },
   "notes": "Eligible for future optimization: migrate npm cache to D: drive for better space management"
 }

@@ -26,9 +26,28 @@ export default defineConfig({
         text: '知识库导航',
         items: [
           { text: '🏠 首页', link: '/' },
-          { text: '📁 学术论文导读', link: '/academic/' },
-          { text: '📝 Prompts & Rules', link: '/prompts/' },
-          { text: '🗺️ 思维导图与 UI', link: '/mindmaps/' },
+          {
+            text: '📁 学术论文导读',
+            collapsed: false,
+            items: [
+              { text: '学术论文导读概览', link: '/academic/' },
+            ],
+          },
+          {
+            text: '📝 Prompts & Rules',
+            collapsed: false,
+            items: [
+              { text: 'Prompts 概览', link: '/prompts/' },
+              { text: '翻译官模板', link: '/prompts/Translation-Master-Prompt' },
+            ],
+          },
+          {
+            text: '🗺️ 思维导图与 UI',
+            collapsed: false,
+            items: [
+              { text: '思维导图与 UI 概览', link: '/mindmaps/' },
+            ],
+          },
         ],
       },
       {
