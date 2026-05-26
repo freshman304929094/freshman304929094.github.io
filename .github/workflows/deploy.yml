@@ -37,10 +37,13 @@ jobs:
       - name: Build VitePress site
         run: npx vitepress build docs
 
+      - name: List build output
+        run: ls -R
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .vitepress/dist
+          path: docs/.vitepress/dist
 
   # 2. 部署任务：专门负责将上传的包发布到 GitHub Pages
   deploy:
