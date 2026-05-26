@@ -1,7 +1,7 @@
 {
   "name": "freshman-knowledge-base",
   "version": "1.0.0",
-  "description": "今日悖论 - 个人数字大脑知识库 (VitePress)",
+  "description": "个人数字大脑知识库",
   "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
