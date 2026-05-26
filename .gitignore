@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+
+# Build output
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# Temp files
+.temp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/settings.json
+
+# Environment config (not the agent config)
+.env
+.env.local

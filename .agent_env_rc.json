@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-05-26T16:48:00+08:00",
+  "created_by": "Agent (Cline)",
+  "task": "VitePress Migration & Knowledge Base Setup",
+  "system_info": {
+    "os": "Windows 11 (10.0.26200.8457)",
+    "node_version": "20.19.0",
+    "npm_version": "10.8.2",
+    "shell": "cmd.exe"
+  },
+  "disk_snapshot": {
+    "C:": { "total_gb": 309, "free_gb": 195.5, "filesystem": "NTFS", "recommendation": "system_drive_not_recommended" },
+    "D:": { "total_gb": 782, "free_gb": 755.3, "filesystem": "NTFS", "recommendation": "primary_data_drive_best_choice" },
+    "E:": { "total_gb": 782, "free_gb": 707.1, "filesystem": "NTFS", "recommendation": "secondary_backup_available" },
+    "F:": null
+  },
+  "project_paths": {
+    "repo_root": "D:\\02_Code_Repos\\freshman304929094.github.io",
+    "docs_dir": "D:\\02_Code_Repos\\freshman304929094.github.io\\docs",
+    "assets_dir": "D:\\02_Code_Repos\\freshman304929094.github.io\\public\\assets",
+    "temp_dir": "D:\\02_Code_Repos\\freshman304929094.github.io\\.temp",
+    "cache_dir": "D:\\02_Code_Repos\\freshman304929094.github.io\\docs\\.vitepress\\cache",
+    "large_file_storage": "D:\\02_Code_Repos\\freshman304929094.github.io\\public\\assets"
+  },
+  "deployment": {
+    "platform": "GitHub Pages",
+    "branch": "main",
+    "workflow": ".github/workflows/deploy.yml",
+    "base_url": "/freshman304929094.github.io/"
+  },
+  "key_files": {
+    "package_json": "D:\\02_Code_Repos\\freshman304929094.github.io\\package.json",
+    "vitepress_config": "D:\\02_Code_Repos\\freshman304929094.github.io\\docs\\.vitepress\\config.mts",
+    "home_page_md": "D:\\02_Code_Repos\\freshman304929094.github.io\\docs\\index.md",
+    "original_html_backup": "D:\\02_Code_Repos\\freshman304929094.github.io\\index.html.bak"
+  },
+  "notes": "Eligible for future optimization: migrate npm cache to D: drive for better space management"
+}
