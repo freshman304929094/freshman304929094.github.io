@@ -4,7 +4,7 @@ export default defineConfig({
   title: '今日悖论 · 个人数字大脑',
   description: '从零构建 AI 实践、沉淀学术研究、个人笔记与工具模板的数字化第二大脑',
   lang: 'zh-CN',
-  base: '/freshman304929094.github.io/',
+  base: '/',
 
   head: [
     ['meta', { charset: 'utf-8' }],
