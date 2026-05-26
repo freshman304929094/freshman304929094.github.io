@@ -73,7 +73,7 @@ export default defineConfig({
     },
   },
 
-  srcDir: './docs',
-  outDir: './docs/.vitepress/dist',
-  cacheDir: './docs/.vitepress/cache',
+  srcDir: '.',
+  outDir: '../.vitepress/dist',
+  cacheDir: '../.vitepress/cache'
 })
