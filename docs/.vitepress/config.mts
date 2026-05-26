@@ -9,7 +9,7 @@ const academicSidebar = [
 const promptsSidebar = [
   { text: 'Prompts 概览', link: '/prompts/' },
   { text: '翻译官模板', link: '/prompts/Translation-Master-Prompt' },
-  { text: '测试文档', link: '/prompts/test' }, 
+  { text: '测试文档', link: '/prompts/Test' }, 
   // 以后新增模板，只需在这里加一行
 ]
 

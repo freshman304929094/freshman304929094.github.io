@@ -1,5 +1,5 @@
 ---
-title: 🧪 Agent 系统提示词测试模版
+title: 🧪 Agent 系统提示词测试
 date: 2026-05-26
 sidebar: true
 ---
